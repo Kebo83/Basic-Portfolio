@@ -7,22 +7,38 @@
     </head>
     <body>
     <header>
-        <table><tr><th>Keith Jones</th><td>&nbsp;</td><td>About</td><td>Portfolio</td><td>Contact</td></tr>
-        </table> 
+            <table>
+                    <tr><th>Keith Jones </th>
+                        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                        <td><a href="index.html" >About</a></td>
+                        <td><a href="portfolio.html" >Portfolio</a></td>
+                        <td><a href= "contact.html">Contact</a></td>
+                    </tr>
+                </table> 
     </header>
-         <main> 
+         <content> 
              <h1>Contact</h1>
+             <hr align="center" WIDTH="92%" color=#cccccc size=2>
+
                 <form action="/action_page.php">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <input type="text" id="name" name="name" placeholder="John Smith">
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Your email..">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Please type your message here." style="height:170px"></textarea>
                   </form>
-                  <input type="submit" value="Submit">
+                  <input type="submit" id="submit"name="Submit">
 
-        </main>   
+        </content>
+
+        <hr align="center" WIDTH="100%"  color=#4aaaa5 size=5> 
+       
+    <footer>
+                Copyright ©
+      
+    </footer>
+        
     </body>
 
 </html>
